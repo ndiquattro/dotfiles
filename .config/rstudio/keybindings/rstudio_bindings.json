@@ -1,0 +1,5 @@
+{
+    "activateTerminal": "Ctrl+3",
+    "testPackage": "Ctrl+T",
+    "restartR": "Ctrl+Shift+R"
+}

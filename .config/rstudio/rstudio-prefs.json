@@ -1,0 +1,55 @@
+{
+    "panes": {
+        "quadrants": [
+            "Source",
+            "Console",
+            "TabSet1",
+            "TabSet2"
+        ],
+        "tabSet1": [
+            "Environment",
+            "History",
+            "Connections",
+            "Build",
+            "VCS",
+            "Tutorial",
+            "Presentation"
+        ],
+        "tabSet2": [
+            "Files",
+            "Plots",
+            "Packages",
+            "Help",
+            "Viewer"
+        ],
+        "console_left_on_top": false,
+        "console_right_on_top": true
+    },
+    "show_indent_guides": true,
+    "editor_keybindings": "vim",
+    "check_arguments_to_r_function_calls": true,
+    "check_unexpected_assignment_in_function_call": true,
+    "auto_append_newline": true,
+    "strip_trailing_whitespace": true,
+    "syntax_color_console": true,
+    "scroll_past_end_of_document": true,
+    "editor_theme": "Solarized Light",
+    "default_project_location": "/data",
+    "document_author": "Nick DiQuattro",
+    "rmd_chunk_output_inline": false,
+    "wrap_tab_navigation": false,
+    "save_workspace": "never",
+    "remove_history_duplicates": true,
+    "reuse_sessions_for_project_links": true,
+    "initial_working_directory": "/data",
+    "fold_style": "begin-only",
+    "posix_terminal_shell": "bash",
+    "cran_mirror": {
+        "name": "Custom",
+        "host": "Custom",
+        "url": "https://packagemanager.rstudio.com/all/__linux__/centos7/latest",
+        "secondary": "",
+        "country": "",
+        "changed": false
+    }
+}
