@@ -1,2 +1,5 @@
 # Tokens
 GITHUB_PAT=
+
+# R Vars
+TMPDIR=
