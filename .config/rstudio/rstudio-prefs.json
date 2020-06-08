@@ -7,19 +7,19 @@
             "TabSet2"
         ],
         "tabSet1": [
-            "Environment",
             "History",
+            "Files",
             "Connections",
+            "Help",
             "Build",
             "VCS",
             "Tutorial",
             "Presentation"
         ],
         "tabSet2": [
-            "Files",
+            "Environment",
             "Plots",
             "Packages",
-            "Help",
             "Viewer"
         ],
         "console_left_on_top": false,
@@ -33,7 +33,7 @@
     "strip_trailing_whitespace": true,
     "syntax_color_console": true,
     "scroll_past_end_of_document": true,
-    "editor_theme": "Solarized Light",
+    "editor_theme": "Solarized Dark",
     "default_project_location": "/data",
     "document_author": "Nick DiQuattro",
     "rmd_chunk_output_inline": false,
@@ -41,15 +41,19 @@
     "save_workspace": "never",
     "remove_history_duplicates": true,
     "reuse_sessions_for_project_links": true,
-    "initial_working_directory": "/data",
+    "initial_working_directory": "~/repos",
     "fold_style": "begin-only",
-    "posix_terminal_shell": "bash",
+    "posix_terminal_shell": "zsh",
     "cran_mirror": {
-        "name": "Custom",
-        "host": "Custom",
-        "url": "https://packagemanager.rstudio.com/all/__linux__/centos7/latest",
-        "secondary": "",
-        "country": "",
-        "changed": false
-    }
+        "name": "Global (CDN)",
+        "host": "RStudio",
+        "url": "https://cran.rstudio.com/",
+        "country": "us",
+        "ok": 1,
+        "secondary": ""
+    },
+    "pdf_previewer": "none",
+    "load_workspace": false,
+    "show_help_tooltip_on_idle": true,
+    "busy_detection": "never"
 }
